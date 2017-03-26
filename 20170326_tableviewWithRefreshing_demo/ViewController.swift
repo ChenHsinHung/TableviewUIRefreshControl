@@ -16,7 +16,6 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
     
     @IBOutlet weak var tableview: UITableView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +34,8 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         
         refreshControl.addTarget(self, action: #selector(ViewController.refreshData), for: .valueChanged )
         //不可以加小括號  #selector(ViewController.refreshData())  <---錯
+        
+        
         
         // MARK:- 識別OS版本
         
