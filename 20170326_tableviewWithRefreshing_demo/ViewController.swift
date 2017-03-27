@@ -54,7 +54,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
 
     }
 
-    // MARK:- 捲動時的動作
+    // MARK:- scroll 捲動時的動作
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
       let offset = scrollView.contentOffset.y
